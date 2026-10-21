@@ -14,7 +14,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="На главную">ХД<span>.</span></a>
-    <nav aria-label="Основная навигация"><a href="#projects">Проекты</a><a href="#about">Обо мне</a></nav>
+    <nav aria-label="Основная навигация"><a href="#projects">Проекты</a><a href="#about">Обо мне</a><a href="#contact">Контакты</a></nav><a class="header-cta" href="https://github.com/juraev-404" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
   </header>
   <main>
     <section class="hero" id="top">
@@ -23,41 +23,42 @@
         <h1>Хайём Джураев.<br><em>Python-разработчик.</em></h1>
         <p class="hero-lead">Создаю backend-приложения на Python и Django — от первой модели данных до работающего сервиса в интернете.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">Смотреть проекты ↗</a>
+          <a class="button primary" href="#projects">Смотреть проекты ↗</a><a class="button secondary" href="https://github.com/juraev-404" target="_blank" rel="noopener noreferrer">Мой GitHub ↗</a>
         </div>
       </div>
       <aside class="hero-note"><span class="note-number">01</span><p>Основной стек</p><strong>Python · Django<br>PostgreSQL</strong><div class="note-rule"></div><p>Москва</p></aside>
     </section>
     <section class="projects section" id="projects">
       <div class="section-heading"><p class="kicker">Избранные работы</p><h2>Проекты, на которых<br>я рос как разработчик</h2></div>
-      <article class="project-card project-first">
+      <article class="project-card project-domly">
         <div class="project-index">01</div>
         <div class="project-content">
-          <p class="project-label">Первый самостоятельный проект</p><h3>Portfolio7</h3>
-          <p>Проект, с которого начался мой путь в веб-разработке. Я создавал его с нуля во время изучения Python и Django и впервые прошёл весь цикл: от моделей данных и пользовательских страниц до развёртывания сайта на сервере. Этот опыт стал практической основой для моих следующих работ.</p>
-          <ul class="tags"><li>Python</li><li>Django</li><li>SQLite</li><li>HTML / CSS</li></ul>
-          <a class="project-link" href="https://portfolio7.ru" target="_blank" rel="noreferrer">Открыть проект ↗</a>
-        </div>
-        <div class="project-visual code-visual" aria-hidden="true"><b class="brace-mark">{ }</b><span>learn</span><span>build</span><span>deploy</span></div>
-      </article>
-      <article class="project-card project-domly">
-        <div class="project-index">02</div>
-        <div class="project-content">
-          <p class="project-label">Развивающийся full-stack проект</p><h3>Domly</h3>
+          <p class="project-label">Основной проект · Django backend</p><h3>Domly</h3>
           <p>Веб-сервис аренды и продажи недвижимости для Душанбе. Реализовал регистрацию и профили, объявления с фотографиями, поиск, фильтры, избранное, сообщения, уведомления и модерацию.</p>
-          <ul class="tags"><li>Python</li><li>Django</li><li>PostgreSQL</li><li>JavaScript</li></ul>
-          <a class="project-link" href="https://domly.site" target="_blank" rel="noreferrer">Открыть проект ↗</a>
+          <ul class="tags"><li>Python</li><li>Django</li><li>SQL</li><li>JavaScript</li></ul>
+          <ul class="technical-points"><li><strong>Доступ к данным.</strong> Проверка участников диалога перед чтением и отправкой сообщений.</li><li><strong>Надёжность чата.</strong> Обработка повторной отправки по client_id без дубликатов; транзакции для связанных операций.</li><li><strong>Проверка и запуск.</strong> Тесты сценариев чата и прав доступа; production-конфигурация PostgreSQL, nginx и systemd.</li></ul><div class="project-actions"><a class="project-link" href="https://domly.site/" target="_blank" rel="noopener noreferrer">Открыть сайт ↗</a><a class="project-link" href="https://github.com/juraev-404/Domly" target="_blank" rel="noopener noreferrer">Посмотреть код ↗</a></div>
         </div>
         <div class="project-visual domly-visual" aria-hidden="true"><span class="roof"></span><strong>DOMLY</strong><small>недвижимость ближе</small></div>
       </article>
+      <article class="project-card project-first">
+        <div class="project-index">02</div>
+        <div class="project-content">
+          <p class="project-label">Первый самостоятельный проект</p><h3>Portfolio7</h3>
+          <p>Учебный справочник школьных формул по алгебре, геометрии, физике и химии. На сайте есть карточки формул, категории, личный кабинет и форум. Мой первый самостоятельный Django-проект: от моделей данных и страниц до развёртывания на сервере.</p>
+          <ul class="tags"><li>Python</li><li>Django</li><li>SQLite</li><li>HTML / CSS</li></ul>
+          <a class="project-link" href="https://portfolio7.ru" target="_blank" rel="noopener noreferrer">Открыть проект ↗</a>
+        </div>
+        <div class="project-visual code-visual" aria-hidden="true"><b class="brace-mark">{ }</b><span>learn</span><span>build</span><span>deploy</span></div>
+      </article>
     </section>
+    <section class="learning section" aria-labelledby="learning-title"><div class="section-heading"><p class="kicker">Практика Python</p><h2 id="learning-title">Сеть и<br>конкурентность</h2></div><div class="learning-grid"><article><h3>Асинхронный TCP-сервер</h3><p>Echo-сервер и клиент на Python. Практика сетевого взаимодействия и asyncio.</p><a class="project-link" href="https://github.com/juraev-404/asincio_server" target="_blank" rel="noopener noreferrer">Код проекта ↗</a></article><article><h3>Многопоточный сервер</h3><p>Учебная реализация сервера для практики работы с потоками и соединениями.</p><a class="project-link" href="https://github.com/juraev-404/2_threaded_server" target="_blank" rel="noopener noreferrer">Код проекта ↗</a></article></div></section>
     <section class="about section" id="about">
       <div><p class="kicker">Обо мне</p><h2>Учусь через<br>реальные задачи</h2></div>
       <div class="about-copy"><p>Я студент 3 курса направления «Программная инженерия» в Финансовом университете при Правительстве РФ. Развиваюсь в backend-разработке, проектирую модели данных, работаю с SQL и довожу идеи до работающих продуктов.</p><div class="education"><div><strong>Программная инженерия</strong><span>2024–2028 · 3 курс</span></div></div></div>
     </section>
-    <section class="skills section"><p class="kicker">Инструменты и технологии</p><ul><li>Python</li><li>Django</li><li>PostgreSQL</li><li>SQL</li><li>Git / GitHub</li><li>HTML &amp; CSS</li><li>JavaScript</li><li>asyncio</li><li>NumPy &amp; Pandas</li></ul></section>
+    <section class="skills section"><p class="kicker">Инструменты и технологии</p><ul><li>Python</li><li>Django</li><li>PostgreSQL</li><li>SQL</li><li>Git / GitHub</li><li>HTML &amp; CSS</li><li>JavaScript · базовый</li><li>asyncio</li><li>NumPy &amp; Pandas</li></ul></section>
   </main>
-  <footer>
+  <footer id="contact"><p class="kicker">Контакты</p><h2>Давайте<br><em>работать вместе.</em></h2><p class="contact-intro">Ищу стажировку или позицию Junior Python Developer. Москва. Мои проекты и исходный код доступны на GitHub.</p><div class="contact-links"><a href="https://github.com/juraev-404" target="_blank" rel="noopener noreferrer">Мой профиль на GitHub ↗</a></div>
     <div class="footer-bottom"><span>Хайём Джураев</span><span>Python Developer · 2026</span></div>
   </footer>
 </body>
