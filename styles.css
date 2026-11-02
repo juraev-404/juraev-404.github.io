@@ -72,3 +72,8 @@ a:focus-visible{outline-color:#777}
 @media(max-width:800px){.work-collection{margin-top:88px;scroll-margin-top:145px}.collection-heading{grid-template-columns:1fr;gap:22px}.work-grid{gap:15px}.work-info{padding:20px}}
 @media(max-width:600px){.work-grid{grid-template-columns:1fr}.work-cover{aspect-ratio:1.6}.work-info h4{font-size:25px}.collection-heading h3{font-size:42px}.work-collection{margin-top:75px}}
 @media(prefers-reduced-motion:reduce){.work-cover img{transition:none}}
+
+/* Links to the standalone project repositories. */
+.work-actions{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:auto}
+.work-actions a{display:inline-flex;align-items:center;min-height:30px;padding-bottom:4px;border-bottom:1px solid #777;font-size:12px;font-weight:700}
+.work-actions a:hover{opacity:.62}

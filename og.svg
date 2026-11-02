@@ -5,6 +5,6 @@
   <text x="96" y="266" fill="#fff" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-4">Хайём Джураев</text>
   <text x="96" y="360" fill="#bcbcbc" font-family="Arial,sans-serif" font-size="58" letter-spacing="-2">Python-разработчик</text>
   <line x1="96" y1="439" x2="1104" y2="439" stroke="#444" stroke-width="2"/>
-  <text x="96" y="500" fill="#eee" font-family="Arial,sans-serif" font-size="20" letter-spacing="1">PYTHON  /  DJANGO  /  WEB</text>
+  <text x="96" y="500" fill="#eee" font-family="Arial,sans-serif" font-size="20" letter-spacing="1">PYTHON  /  BACKEND  /  SERVICES</text>
   <text x="1104" y="500" fill="#888" text-anchor="end" font-family="Arial,sans-serif" font-size="20">JURAEV-404.GITHUB.IO</text>
 </svg>
