@@ -1,95 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Хайём Джураев — Python-разработчик</title>
-  <meta name="description" content="Портфолио Хайёма Джураева: проекты на Python, веб-сервисы и интерес к AI-агентам.">
-  <meta property="og:title" content="Хайём Джураев — Python-разработчик">
-  <meta property="og:description" content="Проекты на Python: веб-сервисы, сетевое программирование и интерес к AI-агентам.">
-  <meta property="og:type" content="website">
-  <link rel="canonical" href="https://juraev-404.github.io/">
-  <meta name="theme-color" content="#101010">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta property="og:image" content="https://juraev-404.github.io/og.png?v=20261103b">
-  <link rel="stylesheet" href="styles.css?v=20261103e">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Хайём Джураев — Python-разработчик</title>
+<meta content="Портфолио Хайёма Джураева: проекты на Python, веб-сервисы и интерес к AI-агентам." name="description"/>
+<meta content="Хайём Джураев — Python-разработчик" property="og:title"/>
+<meta content="Проекты на Python: веб-сервисы, сетевое программирование и интерес к AI-агентам." property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="https://juraev-404.github.io/" rel="canonical"/>
+<meta content="#101010" name="theme-color"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="https://juraev-404.github.io/og.png?v=20261103b" property="og:image"/>
+<link href="styles.css?v=20261103f" rel="stylesheet"/>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Перейти к содержимому</a>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="На главную">ХД<span>.</span></a>
-    <nav aria-label="Основная навигация"><a href="#python-work">Проекты</a><a href="#about">Обо мне</a><a href="#contact">Контакты</a></nav><a class="header-cta" href="https://github.com/juraev-404" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-  </header>
-  <main id="main-content">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> Открыт к стажировке и junior-позициям</p>
-        <h1>Хайём Джураев.<br><em>Python-разработчик.</em></h1>
-        <p class="hero-lead">Создаю веб-приложения и сервисы на Python. Интересуюсь разработкой AI-агентов и автоматизацией задач.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#python-work">Смотреть проекты ↗</a><a class="button secondary" href="https://github.com/juraev-404" target="_blank" rel="noopener noreferrer">Мой GitHub ↗</a>
-        </div>
-      </div>
-      <aside class="hero-note"><span class="note-number">01</span><p>Основной стек</p><strong>Python · SQL<br>asyncio</strong><div class="note-rule"></div><p>Москва</p></aside>
-    </section>
-    <section class="learning section" id="python-work" aria-labelledby="learning-title">
-      <div class="section-heading"><p class="kicker">Python · Разработка и практика</p><h2 id="learning-title">Агенты, сети<br>и вычисления</h2></div>
-      <div class="learning-grid">
-        <article class="learning-ai">
-          <div><p class="learning-label">Направление интереса</p><h3>AI-агенты на Python</h3><p>Интересуюсь тем, как языковые модели могут использовать инструменты и данные, чтобы помогать с поиском информации и автоматизацией задач.</p></div>
-          <div class="ai-topics"><p>Что мне интересно</p><ul><li>Языковые модели</li><li>Работа с данными</li><li>Автоматизация</li></ul></div>
-        </article>
-        <article><p class="learning-label">Учебный проект</p><h3>Асинхронный TCP-сервер</h3><p>Echo-сервер и клиент на Python. Практика сетевого взаимодействия и asyncio.</p><a class="project-link" href="https://github.com/juraev-404/asincio_server" target="_blank" rel="noopener noreferrer">Код проекта ↗</a></article>
-        <article><p class="learning-label">Учебный проект</p><h3>Многопоточный сервер</h3><p>Учебная реализация сервера для практики работы с потоками и соединениями.</p><a class="project-link" href="https://github.com/juraev-404/2_threaded_server" target="_blank" rel="noopener noreferrer">Код проекта ↗</a></article>
-        <article><p class="learning-label">Учебный проект</p><h3>Параллельные вычисления</h3><p>Программа для умножения матриц с использованием пула процессов на Python.</p><a class="project-link" href="https://github.com/juraev-404/parallelism" target="_blank" rel="noopener noreferrer">Код проекта ↗</a></article>
-      </div>
-    </section>
-    <section class="projects section" id="projects">
-      <div class="section-heading"><p class="kicker">Избранные работы</p><h2>Проекты, на которых<br>я рос как разработчик</h2></div>
-      <article class="project-card project-domly">
-        <div class="project-index">01</div>
-        <div class="project-content">
-          <p class="project-label">Основной проект · Django backend</p><h3>Domly</h3>
-          <p>Веб-сервис аренды и продажи недвижимости для Душанбе. Реализовал регистрацию и профили, объявления с фотографиями, поиск, фильтры, избранное, сообщения, уведомления и модерацию.</p>
-          <ul class="tags"><li>Python</li><li>Django</li><li>SQL</li><li>JavaScript</li></ul>
-          <ul class="technical-points"><li><strong>Доступ к данным.</strong> Проверка участников диалога перед чтением и отправкой сообщений.</li><li><strong>Надёжность чата.</strong> Обработка повторной отправки по client_id без дубликатов; транзакции для связанных операций.</li><li><strong>Проверка и запуск.</strong> Тесты сценариев чата и прав доступа; production-конфигурация PostgreSQL, nginx и systemd.</li></ul><div class="project-actions"><a class="project-link" href="https://domly.site/" target="_blank" rel="noopener noreferrer">Открыть сайт ↗</a><a class="project-link" href="https://github.com/juraev-404/Domly" target="_blank" rel="noopener noreferrer">Посмотреть код ↗</a></div>
-        </div>
-        <figure class="project-preview"><a href="https://domly.site/" target="_blank" rel="noopener noreferrer"><img src="assets/domly-preview.jpg" width="1348" height="926" loading="lazy" decoding="async" alt="Domly: поиск недвижимости в Душанбе, категории и фильтры"></a><figcaption>Работающий интерфейс Domly · поиск и фильтры</figcaption></figure>
-      </article>
-      <article class="project-card project-first">
-        <div class="project-index">02</div>
-        <div class="project-content">
-          <p class="project-label">Первый самостоятельный проект</p><h3>Portfolio7</h3>
-          <p>Учебный справочник школьных формул по алгебре, геометрии, физике и химии. На сайте есть карточки формул, категории, личный кабинет и форум. Мой первый самостоятельный Django-проект: от моделей данных и страниц до развёртывания на сервере.</p>
-          <ul class="tags"><li>Python</li><li>Django</li><li>SQLite</li><li>HTML / CSS</li></ul>
-          <a class="project-link" href="https://portfolio7.ru" target="_blank" rel="noopener noreferrer">Открыть проект ↗</a>
-        </div>
-        <figure class="project-preview"><a href="https://portfolio7.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/formulas-preview.jpg" width="1348" height="926" loading="lazy" decoding="async" alt="Portfolio7: главная страница справочника школьных формул"></a><figcaption>Portfolio7 · справочник школьных формул</figcaption></figure>
-      </article>
-      <div class="work-collection" id="web-demos">
-        <div class="collection-heading"><div><p class="project-label">Веб-разработка · 8 проектов</p><h3>От идеи<br>до интерфейса.</h3></div><div><p>Разработал серию демонстрационных сайтов для разных задач: магазины, услуги, лендинги и аналитика. В проектах есть интерактивные сценарии и серверная обработка тестовых заявок.</p><a class="collection-link" href="https://portfolio7.ru/portfolio-demos/" target="_blank" rel="noopener noreferrer">Открыть все проекты ↗</a></div></div>
-        <div class="work-grid">
-          <article class="work-card"><a class="work-cover" href="https://portfolio7.ru/portfolio-demos/forma/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект FORMA"><img src="assets/work-forma.webp" loading="lazy" decoding="async" alt="Интерьер с мебелью в магазине FORMA"><span>01 / МАГАЗИН</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ИНТЕРНЕТ-МАГАЗИН</p><h4>FORMA</h4><p>Каталог мебели с поиском, фильтрами, карточками товаров и корзиной.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/forma/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/forma-furniture-store" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-          <article class="work-card"><a class="work-cover" href="https://portfolio7.ru/portfolio-demos/takt/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект TAKT"><img src="assets/work-takt.webp" loading="lazy" decoding="async" alt="Кофе и упаковки в магазине TAKT"><span>02 / МАГАЗИН</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ИНТЕРНЕТ-МАГАЗИН</p><h4>TAKT</h4><p>Магазин кофе и аксессуаров: категории, корзина и тестовое оформление заказа.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/takt/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/takt-coffee-store" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-          <article class="work-card"><a class="work-cover" href="https://portfolio7.ru/portfolio-demos/sol/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект SOL"><img src="assets/work-sol.webp" loading="lazy" decoding="async" alt="Интерьер городского бистро SOL"><span>03 / РЕСТОРАН</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">САЙТ БИСТРО</p><h4>SOL</h4><p>Сайт ресторана с меню и демонстрационной формой выбора даты и времени.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/sol/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/sol-bistro" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-          <article class="work-card"><a class="work-cover" href="https://portfolio7.ru/portfolio-demos/luma/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект LUMA"><img src="assets/work-luma.webp" loading="lazy" decoding="async" alt="Уход за лицом в студии LUMA"><span>04 / УСЛУГИ</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">САЙТ СТУДИИ</p><h4>LUMA</h4><p>Презентация услуг студии ухода и демонстрационный сценарий записи.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/luma/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/luma-care-studio" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-          <article class="work-card"><a class="work-cover" href="https://portfolio7.ru/portfolio-demos/arkhe/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект ARKHE"><img src="assets/work-arkhe.webp" loading="lazy" decoding="async" alt="Светлый интерьер проекта ARKHE"><span>05 / АРХИТЕКТУРА</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">САЙТ СТУДИИ</p><h4>ARKHE</h4><p>Портфолио архитектурной студии с услугами, работами и формой заявки.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/arkhe/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/arkhe-architecture" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-          <article class="work-card"><a class="work-cover" href="https://portfolio7.ru/portfolio-demos/altai/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект TERA"><img src="assets/work-tera.webp" loading="lazy" decoding="async" alt="Горное озеро на сайте TERA"><span>06 / ПУТЕШЕСТВИЯ</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ТУРИСТИЧЕСКИЙ САЙТ</p><h4>TERA</h4><p>Подборка маршрутов и форма заявки на демонстрационное путешествие.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/altai/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/tera-travel" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-          <article class="work-card"><a class="work-cover work-cover-ui" href="https://portfolio7.ru/portfolio-demos/flow/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект Flow"><div class="mock-window" aria-hidden="true"><div class="mock-bar">◈ &nbsp; flow <i>•••</i></div><div class="mock-title">Рабочее пространство</div><div class="mock-metrics"><i></i><i></i><i></i></div><div class="mock-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span>07 / SAAS</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ЛЕНДИНГ ПРОДУКТА</p><h4>Flow</h4><p>Лендинг сервиса для команд с переключением тарифов и формой заявки.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/flow/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/flow-saas-landing" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-          <article class="work-card"><a class="work-cover work-cover-ui work-cover-dark" href="https://portfolio7.ru/portfolio-demos/pulse/" target="_blank" rel="noopener noreferrer" aria-label="Открыть демопроект Pulse"><div class="mock-window" aria-hidden="true"><div class="mock-bar">◈ &nbsp; pulse <i>•••</i></div><div class="mock-title">Динамика выручки</div><div class="mock-metrics"><i></i><i></i><i></i></div><svg class="mock-chart" viewBox="0 0 240 60" preserveAspectRatio="none"><polyline points="0,55 25,45 48,49 70,35 92,38 114,24 138,30 158,18 180,22 210,7 240,12" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><span>08 / АНАЛИТИКА</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ВЕБ-ПРИЛОЖЕНИЕ</p><h4>Pulse</h4><p>Аналитическая панель с периодами, поиском операций и экспортом CSV.</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/pulse/" target="_blank" rel="noopener noreferrer">Смотреть проект ↗</a><a href="https://github.com/juraev-404/pulse-analytics-dashboard" target="_blank" rel="noopener noreferrer">Код на GitHub ↗</a></div></div></article>
-        </div>
-        <p class="collection-note">Проекты демонстрационные: реальные платежи и бронирования не подключены. Python · SQLite · HTML/CSS · JavaScript · nginx · systemd</p>
-      </div>
-    </section>
+<a class="skip-link" href="#main-content">Перейти к содержимому</a>
+<header class="site-header">
+<a aria-label="На главную" class="brand" href="#top">ХД<span>.</span></a>
+<nav aria-label="Основная навигация"><a href="#projects">Проекты</a><a href="#about">Обо мне</a><a href="#contact">Контакты</a></nav><a class="header-cta" href="https://github.com/juraev-404" rel="noopener noreferrer" target="_blank">GitHub ↗</a>
+</header>
+<main id="main-content">
+<section class="hero" id="top">
+<div class="hero-copy">
+<p class="eyebrow"><span></span> Открыт к стажировке и junior-позициям</p>
+<h1>Хайём Джураев.<br/><em>Python-разработчик.</em></h1>
+<p class="hero-lead">Создаю веб-приложения и сервисы на Python. Интересуюсь разработкой AI-агентов и автоматизацией задач.</p>
+<div class="hero-actions">
+<a class="button primary" href="#projects">Смотреть проекты ↗</a><a class="button secondary" href="https://github.com/juraev-404" rel="noopener noreferrer" target="_blank">Мой GitHub ↗</a>
+<a class="button secondary" download="" href="assets/resume-khaiyom-juraev.pdf">Скачать резюме · PDF ↓</a></div>
+</div>
+<aside class="hero-note"><span class="note-number">01</span><p>Основной стек</p><strong>Python · Django<br/>PostgreSQL</strong><div class="note-rule"></div><p>Москва</p></aside>
+</section>
 
-    <section class="about section" id="about">
-      <div><p class="kicker">Обо мне</p><h2>Учусь через<br>реальные задачи</h2></div>
-      <div class="about-copy"><p>Я студент 3 курса направления «Программная инженерия» в Финансовом университете при Правительстве РФ. Развиваюсь в backend-разработке, проектирую модели данных, работаю с SQL и довожу идеи до работающих продуктов.</p><div class="education"><div><strong>Программная инженерия</strong><span>2024–2028 · 3 курс</span></div></div></div>
-    </section>
-    <section class="skills section"><p class="kicker">Инструменты и технологии</p><ul><li>Python</li><li>Django</li><li>PostgreSQL</li><li>SQL</li><li>Git / GitHub</li><li>HTML &amp; CSS</li><li>JavaScript · базовый</li><li>asyncio</li><li>NumPy &amp; Pandas</li></ul></section>
-  </main>
-  <footer id="contact"><p class="kicker">Профиль и проекты</p><h2>Давайте<br><em>работать вместе.</em></h2><p class="contact-intro">Ищу стажировку или позицию Junior Python Developer. Москва. Мои проекты и исходный код доступны на GitHub.</p><div class="contact-links"><a href="https://github.com/juraev-404" target="_blank" rel="noopener noreferrer">Мой профиль на GitHub ↗</a></div>
-    <div class="footer-bottom"><span>Хайём Джураев</span><span>Python Developer · 2026</span></div>
-  </footer>
+<section class="projects section" id="projects">
+<div class="section-heading"><p class="kicker">Избранные работы</p><h2>Проекты, на которых<br/>я рос как разработчик</h2></div>
+<article class="project-card project-domly">
+<div class="project-index">01</div>
+<div class="project-content">
+<p class="project-label">Основной проект · Django backend</p><h3>Domly</h3>
+<p>Веб-сервис аренды и продажи недвижимости для Душанбе. Реализовал регистрацию и профили, объявления с фотографиями, поиск, фильтры, избранное, сообщения, уведомления и модерацию.</p>
+<ul class="tags"><li>Python</li><li>Django</li><li>SQL</li><li>JavaScript</li></ul>
+<ul class="technical-points"><li><strong>Доступ к данным.</strong> Проверка участников диалога перед чтением и отправкой сообщений.</li><li><strong>Надёжность чата.</strong> Обработка повторной отправки по client_id без дубликатов; транзакции для связанных операций.</li><li><strong>Проверка и запуск.</strong> Тесты сценариев чата и прав доступа; production-конфигурация PostgreSQL, nginx и systemd.</li></ul><div class="project-actions"><a class="project-link" href="https://domly.site/" rel="noopener noreferrer" target="_blank">Открыть сайт ↗</a><a class="project-link" href="https://github.com/juraev-404/Domly" rel="noopener noreferrer" target="_blank">Посмотреть код ↗</a></div>
+</div>
+<figure class="project-preview"><a href="https://domly.site/" rel="noopener noreferrer" target="_blank"><img alt="Domly: поиск недвижимости в Душанбе, категории и фильтры" decoding="async" height="926" loading="lazy" src="assets/domly-preview.jpg" width="1348"/></a><figcaption>Работающий интерфейс Domly · поиск и фильтры</figcaption></figure>
+</article>
+<article class="project-card project-first">
+<div class="project-index">02</div>
+<div class="project-content">
+<p class="project-label">Первый самостоятельный проект</p><h3>Portfolio7</h3>
+<p>Учебный справочник школьных формул по алгебре, геометрии, физике и химии. На сайте есть карточки формул, категории, личный кабинет и форум. Мой первый самостоятельный Django-проект: от моделей данных и страниц до развёртывания на сервере.</p>
+<ul class="tags"><li>Python</li><li>Django</li><li>SQLite</li><li>HTML / CSS</li></ul>
+<a class="project-link" href="https://portfolio7.ru" rel="noopener noreferrer" target="_blank">Открыть проект ↗</a>
+</div>
+<figure class="project-preview"><a href="https://portfolio7.ru/" rel="noopener noreferrer" target="_blank"><img alt="Portfolio7: главная страница справочника школьных формул" decoding="async" height="926" loading="lazy" src="assets/formulas-preview.jpg" width="1348"/></a><figcaption>Portfolio7 · справочник школьных формул</figcaption></figure>
+</article>
+<div class="work-collection" id="web-demos">
+<div class="collection-heading"><div><p class="project-label">Веб-разработка · 8 проектов</p><h3>От идеи<br/>до интерфейса.</h3></div><div><p>Разработал серию демонстрационных сайтов для разных задач: магазины, услуги, лендинги и аналитика. В проектах есть интерактивные сценарии и серверная обработка тестовых заявок.</p><a class="collection-link" href="https://portfolio7.ru/portfolio-demos/" rel="noopener noreferrer" target="_blank">Открыть все проекты ↗</a></div></div>
+<div class="work-grid">
+<article class="work-card"><a aria-label="Открыть демопроект FORMA" class="work-cover" href="https://portfolio7.ru/portfolio-demos/forma/" rel="noopener noreferrer" target="_blank"><img alt="Интерьер с мебелью в магазине FORMA" decoding="async" loading="lazy" src="assets/work-forma.webp"/><span>01 / МАГАЗИН</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ИНТЕРНЕТ-МАГАЗИН</p><h4>FORMA</h4><p>Разработал каталог с поиском и фильтрами, карточки товаров и корзину с сохранением в браузере. На Python реализовал расчёт суммы по серверному каталогу и сохранение тестового заказа в SQLite.</p><p class="work-stack">HTML/CSS · JavaScript · Python · SQLite</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/forma/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/forma-furniture-store" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+<article class="work-card"><a aria-label="Открыть демопроект TAKT" class="work-cover" href="https://portfolio7.ru/portfolio-demos/takt/" rel="noopener noreferrer" target="_blank"><img alt="Кофе и упаковки в магазине TAKT" decoding="async" loading="lazy" src="assets/work-takt.webp"/><span>02 / МАГАЗИН</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ИНТЕРНЕТ-МАГАЗИН</p><h4>TAKT</h4><p>Разработал категории, поиск, карточки товаров и корзину. Сервер на Python проверяет состав заказа и количество товаров, рассчитывает сумму и сохраняет тестовый заказ в SQLite.</p><p class="work-stack">HTML/CSS · JavaScript · Python · SQLite</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/takt/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/takt-coffee-store" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+<article class="work-card"><a aria-label="Открыть демопроект SOL" class="work-cover" href="https://portfolio7.ru/portfolio-demos/sol/" rel="noopener noreferrer" target="_blank"><img alt="Интерьер городского бистро SOL" decoding="async" loading="lazy" src="assets/work-sol.webp"/><span>03 / РЕСТОРАН</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">САЙТ БИСТРО</p><h4>SOL</h4><p>Разработал меню и форму демонстрационного бронирования. Сервер на Python проверяет обязательные поля и дату, сохраняет тестовую заявку в SQLite и возвращает её номер.</p><p class="work-stack">HTML/CSS · JavaScript · Python · SQLite</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/sol/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/sol-bistro" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+<article class="work-card"><a aria-label="Открыть демопроект LUMA" class="work-cover" href="https://portfolio7.ru/portfolio-demos/luma/" rel="noopener noreferrer" target="_blank"><img alt="Уход за лицом в студии LUMA" decoding="async" loading="lazy" src="assets/work-luma.webp"/><span>04 / УСЛУГИ</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">САЙТ СТУДИИ</p><h4>LUMA</h4><p>Разработал страницы услуг и форму демонстрационной записи. Добавил серверную проверку полей и даты, сохранение тестовой заявки в SQLite и ответ с номером заявки.</p><p class="work-stack">HTML/CSS · JavaScript · Python · SQLite</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/luma/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/luma-care-studio" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+<article class="work-card"><a aria-label="Открыть демопроект ARKHE" class="work-cover" href="https://portfolio7.ru/portfolio-demos/arkhe/" rel="noopener noreferrer" target="_blank"><img alt="Светлый интерьер проекта ARKHE" decoding="async" loading="lazy" src="assets/work-arkhe.webp"/><span>05 / АРХИТЕКТУРА</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">САЙТ СТУДИИ</p><h4>ARKHE</h4><p>Разработал портфолио работ и форму обращения в студию. Реализовал обработку заявки на Python: проверку обязательных полей, запись в SQLite и выдачу номера заявки.</p><p class="work-stack">HTML/CSS · JavaScript · Python · SQLite</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/arkhe/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/arkhe-architecture" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+<article class="work-card"><a aria-label="Открыть демопроект TERA" class="work-cover" href="https://portfolio7.ru/portfolio-demos/altai/" rel="noopener noreferrer" target="_blank"><img alt="Горное озеро на сайте TERA" decoding="async" loading="lazy" src="assets/work-tera.webp"/><span>06 / ПУТЕШЕСТВИЯ</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ТУРИСТИЧЕСКИЙ САЙТ</p><h4>TERA</h4><p>Разработал карточки путешествий и форму выбора маршрута. Реализовал проверку полей и даты на Python, сохранение демонстрационной заявки в SQLite и ответ с её номером.</p><p class="work-stack">HTML/CSS · JavaScript · Python · SQLite</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/altai/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/tera-travel" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+<article class="work-card"><a aria-label="Открыть демопроект Flow" class="work-cover work-cover-ui" href="https://portfolio7.ru/portfolio-demos/flow/" rel="noopener noreferrer" target="_blank"><div aria-hidden="true" class="mock-window"><div class="mock-bar">◈   flow <i>•••</i></div><div class="mock-title">Рабочее пространство</div><div class="mock-metrics"><i></i><i></i><i></i></div><div class="mock-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span>07 / SAAS</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ЛЕНДИНГ ПРОДУКТА</p><h4>Flow</h4><p>Разработал лендинг, переключение тарифов и форму заявки. На Python добавил проверку обязательных полей, сохранение тестовой заявки в SQLite и ответ с её номером.</p><p class="work-stack">HTML/CSS · JavaScript · Python · SQLite</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/flow/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/flow-saas-landing" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+<article class="work-card"><a aria-label="Открыть демопроект Pulse" class="work-cover work-cover-ui work-cover-dark" href="https://portfolio7.ru/portfolio-demos/pulse/" rel="noopener noreferrer" target="_blank"><div aria-hidden="true" class="mock-window"><div class="mock-bar">◈   pulse <i>•••</i></div><div class="mock-title">Динамика выручки</div><div class="mock-metrics"><i></i><i></i><i></i></div><svg class="mock-chart" preserveaspectratio="none" viewbox="0 0 240 60"><polyline fill="none" points="0,55 25,45 48,49 70,35 92,38 114,24 138,30 158,18 180,22 210,7 240,12" stroke="currentColor" stroke-width="2"></polyline></svg></div><span>08 / АНАЛИТИКА</span><b aria-hidden="true">↗</b></a><div class="work-info"><p class="work-type">ВЕБ-ПРИЛОЖЕНИЕ</p><h4>Pulse</h4><p>Разработал переключение периодов, фильтры, поиск операций и экспорт CSV на JavaScript. Графики и таблицы работают со встроенными демонстрационными данными.</p><p class="work-stack">HTML/CSS · JavaScript</p><div class="work-actions"><a href="https://portfolio7.ru/portfolio-demos/pulse/" rel="noopener noreferrer" target="_blank">Смотреть проект ↗</a><a href="https://github.com/juraev-404/pulse-analytics-dashboard" rel="noopener noreferrer" target="_blank">Код на GitHub ↗</a></div></div></article>
+</div>
+<div class="demo-evidence"><p class="project-label">Серверная логика и проверки</p><p>В семи демопроектах реализовал обработку заказов и заявок на Python с хранением в SQLite. Добавил проверку входных данных и ограничение частоты запросов; тестовые записи удаляются через неделю.</p><p>В репозиториях — smoke-проверки запуска и отправки форм. Для магазинов проверяются серверный расчёт суммы и отклонение некорректного количества товаров. Pulse работает в браузере со встроенными данными.</p></div><p class="collection-note">Все восемь проектов демонстрационные: реальные платежи и бронирования не подключены. Развёртывание: nginx · systemd.</p>
+</div>
+</section><section aria-labelledby="learning-title" class="learning section" id="python-work">
+<div class="section-heading"><p class="kicker">Python · Разработка и практика</p><h2 id="learning-title">Агенты, сети<br/>и вычисления</h2></div>
+<div class="learning-grid">
+<article class="learning-ai">
+<div><p class="learning-label">Направление интереса</p><h3>AI-агенты на Python</h3><p>Интересуюсь тем, как языковые модели могут использовать инструменты и данные, чтобы помогать с поиском информации и автоматизацией задач.</p></div>
+<div class="ai-topics"><p>Что мне интересно</p><ul><li>Языковые модели</li><li>Работа с данными</li><li>Автоматизация</li></ul></div>
+</article>
+<article><p class="learning-label">Учебный проект</p><h3>Асинхронный TCP-сервер</h3><p>Echo-сервер и клиент на Python. Практика сетевого взаимодействия и asyncio.</p><a class="project-link" href="https://github.com/juraev-404/asincio_server" rel="noopener noreferrer" target="_blank">Код проекта ↗</a></article>
+<article><p class="learning-label">Учебный проект</p><h3>Многопоточный сервер</h3><p>Учебная реализация сервера для практики работы с потоками и соединениями.</p><a class="project-link" href="https://github.com/juraev-404/2_threaded_server" rel="noopener noreferrer" target="_blank">Код проекта ↗</a></article>
+<article><p class="learning-label">Учебный проект</p><h3>Параллельные вычисления</h3><p>Программа для умножения матриц с использованием пула процессов на Python.</p><a class="project-link" href="https://github.com/juraev-404/parallelism" rel="noopener noreferrer" target="_blank">Код проекта ↗</a></article>
+</div>
+</section>
+<section class="about section" id="about">
+<div><p class="kicker">Обо мне</p><h2>Учусь через<br/>реальные задачи</h2></div>
+<div class="about-copy"><p>Я студент 3 курса направления «Программная инженерия» в Финансовом университете при Правительстве РФ. Развиваюсь в backend-разработке, проектирую модели данных, работаю с SQL и довожу идеи до работающих продуктов.</p><div class="education"><div><strong>Программная инженерия</strong><span>2024–2028 · 3 курс</span></div></div></div>
+</section>
+<section aria-labelledby="skills-title" class="skills section"><div class="section-heading"><p class="kicker">Инструменты и технологии</p><h2 id="skills-title">Стек, с которым<br/>я работаю</h2></div><div class="skills-grid">
+<article><h3>Backend</h3><p>Серверная логика, модели данных и сетевые приложения.</p><ul><li>Python</li><li>Django</li><li>Django ORM</li><li>asyncio</li></ul></article>
+<article><h3>Базы данных</h3><p>SQL-запросы, связанные данные и транзакции.</p><ul><li>PostgreSQL</li><li>SQL</li><li>SQLite</li></ul></article>
+<article><h3>Веб-интерфейсы</h3><p>Страницы, формы и интерактивные сценарии.</p><ul><li>HTML</li><li>CSS</li><li>JavaScript · базовый</li></ul></article>
+<article><h3>Разработка и запуск</h3><p>Версии кода, настройка сервера и развёртывание.</p><ul><li>Git / GitHub</li><li>Linux</li><li>nginx</li><li>gunicorn</li><li>systemd</li></ul></article>
+</div><p class="skills-extra">Учебная практика: потоки и multiprocessing, NumPy и Pandas; Java и C — базовый уровень.</p></section>
+</main>
+<footer id="contact"><p class="kicker">Профиль и проекты</p><h2>Давайте<br/><em>работать вместе.</em></h2><p class="contact-intro">Ищу стажировку или позицию Junior Python Developer. Москва. Мои проекты и исходный код доступны на GitHub.</p><div class="contact-links"><a href="https://github.com/juraev-404" rel="noopener noreferrer" target="_blank">Мой профиль на GitHub ↗</a><a href="https://t.me/amator29" rel="noopener noreferrer" target="_blank">Telegram · @amator29 ↗</a><a href="mailto:khaiyom_juraev@icloud.com">khaiyom_juraev@icloud.com</a><a download="" href="assets/resume-khaiyom-juraev.pdf">Скачать резюме · PDF ↓</a></div>
+<div class="footer-bottom"><span>Хайём Джураев</span><span>Python Developer · 2026</span></div>
+</footer>
 </body>
 </html>
